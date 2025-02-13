@@ -47,7 +47,7 @@ jobs:
           token: ${{ secrets.GH_ORG_TOKEN }}
       - name: summarise input variables
         run: |
-          echo "## Summary of input variables" >> $GITHUB_SUMMARY
+          echo "## Summary of input variables" >> $GITHUB_STEP_SUMMARY
 
 
   create_repository:
