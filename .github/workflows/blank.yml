@@ -48,6 +48,7 @@ jobs:
       - name: summarise input variables
         run: |
           echo "## Summary of input variables" >> $GITHUB_STEP_SUMMARY
+          echo "```repository_org``` : ${{ inputs.reoository_org }}" >> $GITHUB_STEP_SUMMARY
 
 
   create_repository:
