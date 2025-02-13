@@ -66,6 +66,6 @@ jobs:
           zipPath: 'deploy/zipFile.zip'
           repoOrg: '${{ inputs.repository_org }}'
           repoName: '${{ inputs.repository_name }}'
-          repoDescription: '${{ input.repository_description }} - ${{ inputs.external_repo_source }} - ${{ inputs.external_link }}'
+          repoDescription: '${{ inputs.repository_description }} - ${{ inputs.external_repo_source }} - ${{ inputs.external_link }}'
           repoVisibility: 'private'
           securityToken: ${{ secrets.GH_ORG_TOKEN }}
